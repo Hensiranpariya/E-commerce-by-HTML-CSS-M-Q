@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Bold.woff2') format('woff2'),
+        url('NotoSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-BlackItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-ExtraBold.woff2') format('woff2'),
+        url('NotoSansCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Black.woff2') format('woff2'),
+        url('NotoSansCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-BoldItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Light.woff2') format('woff2'),
+        url('NotoSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-LightItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-SemiBold.woff2') format('woff2'),
+        url('NotoSansCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Medium.woff2') format('woff2'),
+        url('NotoSansCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-ExtraLight.woff2') format('woff2'),
+        url('NotoSansCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Italic.woff2') format('woff2'),
+        url('NotoSansCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Regular.woff2') format('woff2'),
+        url('NotoSansCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-MediumItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-ThinItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('NotoSansCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Thin.woff2') format('woff2'),
+        url('NotoSansCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-BlackItalic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-Bold.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-Black.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-ExtraLight.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-BoldItalic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-ExtraBold.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-Light.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-LightItalic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-Italic.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans ExtraCondensed';
+    src: url('NotoSansExtraCondensed-Medium.woff2') format('woff2'),
+        url('NotoSansExtraCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

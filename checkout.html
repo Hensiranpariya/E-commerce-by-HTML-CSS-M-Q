@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page</title>
+    <!-- favicon  -->
+    <link rel="icon" href="images/favicon.jpg" type="icon">
+    <!-- fonts css  -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css">
+    <!-- remixicon css  -->
+    <link rel="stylesheet" href="remix/remixicon.css" type="text/css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+      <!-- Header  -->
+    <header style="box-shadow: 0px 5px 15px -15px var(--dark-color);">
+        <div class="container">
+            <div class="logo" style="padding: 30px 0;">
+                <a href="index.html" class="d-flex align-items-center justify-center">
+                    <img src="images/chekout-logo.png" alt="logo" title="logo">
+                    Gadgets Zone
+                </a>
+            </div>
+        </div>     
+    </header>
+
+    <main>
+        <!-- checkout-menu  -->
+        <section class="py checkout-menu">
+            <div class="container">
+                <div class="page-menu">
+                    <ul class="d-flex">
+                        <li><a href="index.html">Home</a><i class="ri-arrow-right-s-line"></i></li>
+                        <li><a href="cart.html">View cart</a><i class="ri-arrow-right-s-line"></i></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- order-form-of-product  -->
+        <section class="py order-form">
+            <div class="container">
+                <div class="form-title d-flex justify-center">
+                    <ul class="d-flex">
+                        <li>Address</li>
+                        <li>Dispatch</li>
+                        <li>Review Order & Make Payment</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="w-60">
+                        <div class="checkout-form">
+                            <form>
+                                <h3>Shipping Address</h3>
+                                <div class="name d-flex">
+                                    <div style="width: 50%;">
+                                        <label>First Name <span>*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <label>Last Name <span>*</span></label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <label>Email <span>*</span></label>
+                                <input type="email">
+                                <label>Address <span>*</span></label>
+                                <textarea></textarea>
+                                <div class="name d-flex">
+                                    <div style="width: 50%;">
+                                        <label>City <span>*</span></label>
+                                        <input type="text" >
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <label>Country <span>*</span></label>
+                                        <input type="text" placeholder="United States">
+                                    </div>
+                                </div>
+                                <div class="name d-flex">
+                                    <div style="width: 50%;">
+                                        <label>State / Province  <span>*</span></label>
+                                        <select>
+                                            <option value="">--Select State--</option>
+                                            <option value="">Surat</option>
+                                            <option value="">Gujrat</option>
+                                            <option value="">Rajkot</option>
+                                            <option value="">Junagdh</option>
+                                        </select>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <label>ZIP Code <span>*</span></label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <label>Telephone  <span>*</span></label>
+                                <input type="text">
+                                <button type="submit" value="submit">continue</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="w-40">
+                        <div class="product-total">
+                            <form class="d-flex">
+                                <input type="text" placeholder="coupon Code">
+                                <button type="submit" value="submit">Apply</button>
+                            </form>
+                            <div class="order-summery">
+                                <h4>Order Summary</h4>
+                                <div class="order-item d-flex justify-between align-items-center">
+                                    <p>Subtotal (1 Items)</p>
+                                    <p>$210.00</p>
+                                </div>
+                                <div class="order-total d-flex justify-between align-items-center">
+                                    <p>Total</p>
+                                    <p>$210.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer  -->
+    <footer class="py">
+        <div class="container">
+            <div class="row">
+                <div class="w-4">
+                    <div class="footer-payment">
+                        <h3>Payment Options</h3>
+                        <img src="images/pay-1.png" alt="gpay" title="gpay" width="50px">
+                        <img src="images/pay-2.png" alt="gpay" title="gpay" width="50px">
+                        <img src="images/pay-3.png" alt="gpay" title="gpay" width="50px">
+                        <p>© gadgets zone</p>
+                        <p>Powered by zoho commerce</p>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-social">
+                        <h3>Follow Us</h3>
+                        <i class="ri-facebook-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-pinterest-fill"></i>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-list">
+                        <h3>We Accept</h3>
+                        <ul>
+                            <li>Visa Cards</li>
+                            <li>Master Cards</li>
+                            <li>Other Cards</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-news">
+                        <h3>Newsletter</h3>
+                        <form>
+                            <input type="email" placeholder="Email">
+                            <button type="submit" value="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

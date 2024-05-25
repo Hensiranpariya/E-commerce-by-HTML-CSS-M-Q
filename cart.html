@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <!-- favicon  -->
+    <link rel="icon" href="images/favicon.jpg" type="icon">
+    <!-- fonts css  -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css">
+    <!-- remixicon css  -->
+    <link rel="stylesheet" href="remix/remixicon.css" type="text/css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    
+    <!-- Header  -->
+    <header>
+        <div class="topbar">
+            <div class="container">
+                <div class="d-flex justify-between align-items-center">
+                    <div class="logo">
+                        <a href="javascript:void(0)">Gadgets Zone</a>
+                    </div>
+                    <div class="cart-icon">
+                        <a href="javascript:void(0)"><i class="ri-search-line"></i></a>
+                        <a href="cart.html" class="relative"><i class="ri-shopping-cart-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="d-flex justify-center header-menu">
+            <div class="container">
+                <ul class="d-flex">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                    <li><a href="javascript:void(0)">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- cart system  -->
+        <section class="py">
+            <div class="container">
+                <div class="cart-system">
+                    <table width="100%">
+                        <thead>
+                            <tr>
+                                <th>Items</th>
+                                <th>Quantity</th>
+                                <th>Subtotal</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/p3.jpeg" alt="cart" title="cart" width="150px">
+                                        <div>
+                                            <a href="product.html">Black Buds</a>
+                                            <p>$210.00</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="quantity d-flex">
+                                        <button class="minus-btn" type="button" name="button">-</button>
+                                        <input type="text" name="quantity" value="1">
+                                        <button class="plus-btn" type="button" name="button">+</button>
+                                      </div>
+                                </td>
+                                <td>$210.00</td>
+                                <td>
+                                    <a href="#"><i class="ri-delete-bin-6-line"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cart-btn d-flex align-items-center justify-between">
+                        <a href="index.html">Countinue Shopping</a>
+                        <a href="checkout.html">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="py">
+        <div class="container">
+            <div class="row">
+                <div class="w-4">
+                    <div class="footer-payment">
+                        <h3>Payment Options</h3>
+                        <img src="images/pay-1.png" alt="gpay" title="gpay" width="50px">
+                        <img src="images/pay-2.png" alt="gpay" title="gpay" width="50px">
+                        <img src="images/pay-3.png" alt="gpay" title="gpay" width="50px">
+                        <p>© gadgets zone</p>
+                        <p>Powered by zoho commerce</p>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-social">
+                        <h3>Follow Us</h3>
+                        <i class="ri-facebook-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-pinterest-fill"></i>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-list">
+                        <h3>We Accept</h3>
+                        <ul>
+                            <li>Visa Cards</li>
+                            <li>Master Cards</li>
+                            <li>Other Cards</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-4">
+                    <div class="footer-news">
+                        <h3>Newsletter</h3>
+                        <form>
+                            <input type="email" placeholder="Email">
+                            <button type="submit" value="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
