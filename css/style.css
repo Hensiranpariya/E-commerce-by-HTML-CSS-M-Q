@@ -82,6 +82,9 @@ img{
     padding: 80px 0;
 }
 /* Header  */
+header{
+    position: relative;
+}
 .topbar{
     border-bottom: 2px solid var(--secondary-100);
     padding: 20px;
@@ -120,6 +123,12 @@ header .header-menu ul li a{
     color: var(--dark-color);
     margin-right: 35px;
     font-size: 16px;
+}
+.toggle a{
+    color: var(--dark-color);
+}
+.toggle{
+    display: none;
 }
 /* Banner  */
 .banner{
@@ -429,6 +438,9 @@ footer{
     margin: 15px 0;
 }
 /* ................................cart page............................... */
+.cart-system{
+    overflow-x:scroll ;
+}
 .cart-system table thead tr th{
     color: var(--text-color);
     font-weight: 500;
